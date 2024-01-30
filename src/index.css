@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+::-webkit-scrollbar {
+  background-color: rgb(176, 226, 195);
+  width: 0.7rem;
+}
+::-webkit-scrollbar-thumb {
+  width: 1rem;
+  height: 1rem;
+  background-color: rgb(6, 100, 88);
+}

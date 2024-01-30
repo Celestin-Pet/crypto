@@ -1,0 +1,120 @@
+.container_coin {
+  padding: 2rem;
+  width: 35rem;
+  margin: 0 auto;
+}
+.container_coin h1 {
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+}
+.container_coin .price img {
+  width: 2rem;
+}
+.container_coin .rank {
+  position: absolute;
+  top: 0.8rem;
+  left: 2rem;
+  font-size: 1rem;
+  background-color: rgba(10, 66, 131, 0.575);
+  border-radius: 0.2rem;
+  color: rgb(11, 149, 212);
+  padding: 0.2rem;
+}
+.container_coin .price {
+  position: relative;
+  background: #1E1E1E;
+  color: darkgray;
+  padding: 1.5rem;
+  padding-top: 3rem;
+  margin: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: .6rem .6rem 0 0;
+}
+.container_coin .price div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+}
+.container_coin .price h2 {
+  color: gainsboro;
+}
+.container_coin .changePrice {
+  background: #1E1E1E;
+  width: 100%;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  text-align: center;
+}
+.container_coin .changePrice .dailyPrice {
+  background-color: #373a3a;
+  padding: 0.3rem;
+  color: gainsboro;
+}
+.container_coin .changePrice span {
+  color: gray;
+  margin: 0.15rem;
+}
+.container_coin .more_details span {
+  color: darkgray;
+  font-size: 0.85rem;
+}
+.container_coin .more_details {
+  margin: 1rem 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  background-color: #1E1E1E;
+  padding: 0.5rem;
+  color: gray;
+}
+.container_coin .more_details .inside_more_details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0.5rem;
+  padding: 0.2rem;
+  border-bottom: 1px solid gray;
+  font-size: 0.77rem;
+}
+.container_coin .about {
+  border-radius: 0 0 .6rem .6rem ;
+  padding: 1rem;
+  background: #1E1E1E;
+  color: gray;
+  text-align: justify;
+  line-height: 1.3rem;
+}
+.container_coin .about h3 {
+  margin-bottom: 0.5rem;
+  color: gainsboro;
+}
+.container_coin a {
+  color: lightslategray;
+}
+
+@media screen and (max-width: 800px) {
+  .container_coin {
+    width: 90%;
+    padding: 0;
+    font-size: 0.9rem;
+  }
+  .container_coin .more_details {
+    padding: 0.2rem;
+    font-size: 0.7rem;
+  }
+  .container_coin .more_details .inside_more_details {
+    padding: 0;
+    padding-bottom: 0.4rem;
+    margin: 0.5rem;
+  }
+
+  .loading {
+    margin-top: 50% !important;
+  }
+}
